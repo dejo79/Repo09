@@ -1,8 +1,10 @@
 function logicalOrOperator(num) {
-    if (num > 30 || num < 20) {
+    if (num < 20 || num > 30) {
         return "Out";
     }
-    return "In";
+        return "In";
+    
 }
-logicalOrOperator(num);
+logicalOrOperator(20);
+console.log(logicalOrOperator());
 module.exports = logicalOrOperator;

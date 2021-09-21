@@ -1,5 +1,5 @@
 function switchCaseSequential(num) {
-    var answer;
+    var answer = "";
     switch (num) {
         case 1:
         case 2:
@@ -15,8 +15,9 @@ function switchCaseSequential(num) {
         case 8:
         case 9:
             result = "High";
+        switchCaseSequential(1);
     }
     return answer;
 }
-console.log(switchCaseSequential(num));
+console.log(switchCaseSequential(1));
 module.exports = switchCaseSequential;

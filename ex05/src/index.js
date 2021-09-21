@@ -2,7 +2,9 @@ function compareStrictValues(m) {
     if (m != 55) {
         return "Not equal";
     }
-    return "Equal";
+        return "Equal";
+    
 }
-compareStrictValues(55);
+compareStrictValues(12);
+console.log(compareStrictValues());
 module.exports = compareStrictValues;

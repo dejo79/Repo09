@@ -4,5 +4,6 @@ function logicalAndOperator(num) {
     }
     return "No";
 }
-logicalAndOperator(num);
-modul.exports = logicalAndOperator;
+logicalAndOperator(0);
+console.log(logicalAndOperator());
+module.exports = logicalAndOperator;

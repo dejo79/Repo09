@@ -8,5 +8,6 @@ function logicOrder(num) {
         return "Greater than or equal to 100";
     }
 }
-logicOrder(num);
+logicOrder(110);
+console.log(logicOrder());
 module.exports = logicOrder;

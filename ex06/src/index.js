@@ -8,5 +8,6 @@ function comparisonToEqual(a) {
                 if (a >= 21) {
                     return "More than 20"; }
 }
-comparisonToEqual(a);
+comparisonToEqual(22);
+console.log(comparisonToEqual());
 module.exports = comparisonToEqual;
