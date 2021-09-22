@@ -3,5 +3,6 @@ function checkSign(num) {
     : (num < 0) ? "negative"
     : "zero";
 }
-checkSign(num);
+checkSign(0);
+console.log(checkSign());
 module.exports = checkSign;
